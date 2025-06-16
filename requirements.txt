@@ -1,0 +1,7 @@
+streamlit
+torch
+yfinance
+psycopg2-binary
+sklearn
+finance-calendars
+python-dotenv
