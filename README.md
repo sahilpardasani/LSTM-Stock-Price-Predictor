@@ -25,11 +25,13 @@ Add sentiment-based news correction (via FinBERT)
 Improve forecast speed
 Add Dockerfile for easy deployment
 
+<img width="1542" alt="Screenshot 2025-06-17 at 12 22 47 AM" src="https://github.com/user-attachments/assets/364c0b7e-a6c0-455a-931b-dc79a37be8ec" />
+<img width="1436" alt="Screenshot 2025-06-17 at 12 24 47 AM" src="https://github.com/user-attachments/assets/5c558bc3-9d89-45d0-b142-28081c2a77f3" />
+<img width="505" alt="Screenshot 2025-06-17 at 12 25 15 AM" src="https://github.com/user-attachments/assets/46be2922-04dd-4f66-98b9-69bcf445071b" />
+
+
 ## 📦 Setup (Optional for local run)
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-<img width="1542" alt="Screenshot 2025-06-17 at 12 22 47 AM" src="https://github.com/user-attachments/assets/364c0b7e-a6c0-455a-931b-dc79a37be8ec" />
-<img width="1436" alt="Screenshot 2025-06-17 at 12 24 47 AM" src="https://github.com/user-attachments/assets/5c558bc3-9d89-45d0-b142-28081c2a77f3" />
-<img width="505" alt="Screenshot 2025-06-17 at 12 25 15 AM" src="https://github.com/user-attachments/assets/46be2922-04dd-4f66-98b9-69bcf445071b" />
 
