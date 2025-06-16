@@ -1,17 +1,6 @@
 # LSTM-Stock-Price-Predictor
 This project uses a Long Short-Term Memory (LSTM) model to predict next-day closing prices for popular stocks based on the past 90 days of data.
 
-## Project Structure
-📁 stock-price-predictor-lstm/
-├── app.py                     # Streamlit UI
-├── data.py                   # Data loading & feature engineering
-├── db_utils.py               # PostgreSQL DB interaction
-├── earnings.py              # Pulls today's earnings via API
-├── model.py                 # LSTM model architecture
-├── training_prediction.py   # Model training + prediction logic
-├── requirements.txt         # All dependencies
-├── .env.example             # Template for env vars (exclude real secrets)
-
 ## 🧠 Features
 - Uses 6 features: Open, High, Low, Close, Volume, and previous prediction error.
 - Automatically logs actual vs predicted prices into a PostgreSQL database.
